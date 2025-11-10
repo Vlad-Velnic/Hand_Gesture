@@ -31,7 +31,7 @@ if not os.path.exists(csv_file_name):
         csv_writer = csv.writer(f)
         csv_writer.writerow(csv_header)
 
-print("Data collector started. Press 'q' to quit.")
+print("Data collector started. Press '=' to quit.")
 print("Press 'a', 'b', 'c', etc., to record the sign for that letter.")
 
 current_label = None
